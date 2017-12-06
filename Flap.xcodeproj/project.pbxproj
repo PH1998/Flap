@@ -15,6 +15,9 @@
 		057C98571FD720F700547DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057C98551FD720F700547DF7 /* Main.storyboard */; };
 		057C98591FD720F700547DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057C98581FD720F700547DF7 /* Assets.xcassets */; };
 		057C985C1FD720F700547DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057C985A1FD720F700547DF7 /* LaunchScreen.storyboard */; };
+		057C98641FD721EB00547DF7 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 057C98631FD721EB00547DF7 /* CoinSound.mp3 */; };
+		057C98661FD721FC00547DF7 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 057C98651FD721FC00547DF7 /* player.atlas */; };
+		057C98681FD723EE00547DF7 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C98671FD723EE00547DF7 /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		057C98581FD720F700547DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057C985B1FD720F700547DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057C985D1FD720F700547DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057C98631FD721EB00547DF7 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		057C98651FD721FC00547DF7 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		057C98671FD723EE00547DF7 /* GameElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +71,13 @@
 				057C984F1FD720F700547DF7 /* Actions.sks */,
 				057C98511FD720F700547DF7 /* GameScene.swift */,
 				057C98531FD720F700547DF7 /* GameViewController.swift */,
+				057C98671FD723EE00547DF7 /* GameElements.swift */,
 				057C98551FD720F700547DF7 /* Main.storyboard */,
 				057C98581FD720F700547DF7 /* Assets.xcassets */,
 				057C985A1FD720F700547DF7 /* LaunchScreen.storyboard */,
 				057C985D1FD720F700547DF7 /* Info.plist */,
+				057C98631FD721EB00547DF7 /* CoinSound.mp3 */,
+				057C98651FD721FC00547DF7 /* player.atlas */,
 			);
 			path = Flap;
 			sourceTree = "<group>";
@@ -133,8 +142,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				057C98571FD720F700547DF7 /* Main.storyboard in Resources */,
+				057C98641FD721EB00547DF7 /* CoinSound.mp3 in Resources */,
 				057C984E1FD720F700547DF7 /* GameScene.sks in Resources */,
 				057C98591FD720F700547DF7 /* Assets.xcassets in Resources */,
+				057C98661FD721FC00547DF7 /* player.atlas in Resources */,
 				057C985C1FD720F700547DF7 /* LaunchScreen.storyboard in Resources */,
 				057C98501FD720F700547DF7 /* Actions.sks in Resources */,
 			);
@@ -147,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057C98681FD723EE00547DF7 /* GameElements.swift in Sources */,
 				057C98521FD720F700547DF7 /* GameScene.swift in Sources */,
 				057C98541FD720F700547DF7 /* GameViewController.swift in Sources */,
 				057C984C1FD720F700547DF7 /* AppDelegate.swift in Sources */,
